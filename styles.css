@@ -48,14 +48,12 @@ header:nth-of-type(4) {
 }
 
 .nav a {
-    text-decoration: none;          /* убираем подчёркивание */
-    color: rgba(36, 36, 36, 1);   /* цвет текста */
-    font-family: 'Inter';           /* Основной шрифт Inter */
+    text-decoration: none;            /* убираем подчёркивание */
+    color: rgba(36, 36, 36, 1);     /* цвет текста */
+    font-family: 'Inter' sans-serif;  /* Основной шрифт Inter */
     font-weight: 500;
-    font-style: medium;
     font-size: 15px;
     line-height: 20px;
-    letter-spacing: 0%;
 }
 
 .nav a:active {
@@ -83,15 +81,29 @@ header:nth-of-type(4) {
 }
 
 .btn.btn-secondary {
-  display: inline-flex;     /* Делаем кнопку flex-контейнером */
-  align-items: center;      /* Выравнивание по вертикали */
-  gap: 6px;                 /* Отступ между текстом и стрелкой */
-  width: 11.666667938232422px;
-  height: 8.333333015441895px;
+  display: inline-flex;     /* flex-контейнер */
+  align-items: center;      /* выравнивание по центру */
+  gap: 6px;                 /* отступ между текстом и стрелкой */
+  background-color: rgba(240, 240, 240, 1);
+  color: rgba(36, 36, 36, 1);
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.arrow {
+  align-self: start;
+  font-size: 14px;          /* Размер стрелки (можно подогнать) */
+  color: rgba(36, 36, 36, 1);
+  width: 11.67px;
+  height: 8.33px;
   top: 5.83px;
   left: 4.17px;
   border: 1.5px;
-  color: rgba(36, 36, 36, 1);
 }
 
 .btn-primary {
