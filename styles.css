@@ -96,13 +96,11 @@ header:nth-of-type(4) {
 }
 
 .arrow {
-  align-self: start;
-  font-size: 14px;          /* Размер стрелки (можно подогнать) */
+  font-size: 14px;           /* размер стрелки */
+  line-height: 1;            /* убираем лишние отступы */
   color: rgba(36, 36, 36, 1);
-  width: 11.67px;
-  height: 8.33px;
-  top: 5.83px;
-  left: 4.17px;
+  display: inline-flex;      /* чтобы стрелка велась как иконка */
+  align-items: center;       /* выравнивание по вертикали */
   border: 1.5px;
 }
 
