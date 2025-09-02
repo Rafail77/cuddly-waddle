@@ -50,7 +50,7 @@ header:nth-of-type(4) {
 .nav a {
     text-decoration: none;            /* убираем подчёркивание */
     color: rgba(36, 36, 36, 1);     /* цвет текста */
-    font-family: 'Inter' sans-serif;  /* Основной шрифт Inter */
+    font-family: 'Inter', sans-serif;  /* Основной шрифт Inter */
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
