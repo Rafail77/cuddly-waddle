@@ -108,3 +108,56 @@ header:nth-of-type(4) {
     background-color: rgba(92, 83, 233, 1);
     color: rgba(255, 255, 255, 1);
 }
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(238, 240, 243, 1);
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  gap: 8px;
+}
+
+.header2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 32px 110px;      /* внутренние отступы */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;   /* расстояние между <a> */
+}
+
+.nav2 a {
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;            /* убираем подчёркивание */
+    color: rgba(23, 15, 73, 1);     /* цвет текста */
+    font-family: 'Inter' sans-serif;  /* Основной шрифт Inter */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.button-rounded {
+  background-color: rgba(74, 58, 255, 1);
+  color: rgba(255, 255, 255, 1);     /* цвет текста */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 18px 24px;
+  border-radius: 76px;
+  border: none;
+  cursor: pointer;
+}
